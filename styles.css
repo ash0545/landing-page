@@ -1,21 +1,63 @@
+body {
+    padding: 0%;
+    margin: 0;
+}
+
 .header,
 .footer,
 .hero {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px 20px;
+    border: none;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    padding: 20px 80px 40px 80px;
+}
+
+img {
+    width: 600px;
+}
+
+.hero-text button {
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-text .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text .secondary-text {
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -42,22 +84,6 @@ button,
     font-size: 16px;
     color: #E5E7EB;
 }
-.hero-text button {
-    color: #F9FAF8;
-    border: none;
-    border-radius: 5px;
-}
-
-.hero-text .main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.hero-text .secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 .info-head {
     font-size: 36px;    
@@ -70,4 +96,12 @@ button,
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.footer {
+    color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
