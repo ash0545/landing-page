@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px 20px;
+    padding: 20px 80px;
     border: none;
 }
 
@@ -37,7 +37,7 @@ a {
 
 .hero {
     display: flex;
-    padding: 20px 80px 40px 80px;
+    padding: 20px 80px;
 }
 
 img {
@@ -61,6 +61,44 @@ img {
     color: #E5E7EB;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.info-head {
+    font-size: 36px;    
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px 80px;
+}
+
+.sign-up {
+    margin: 20px 80px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 button,
 .sign-up {
     background-color: #3882F6;
@@ -72,6 +110,7 @@ button,
     font-size: 12px;
     color: #F9FAF8;
     font-weight: bold;
+    border-style: solid;
 }
 
 .sign-up-text .bold {
@@ -83,19 +122,6 @@ button,
 .sign-up-text .subtext {
     font-size: 16px;
     color: #E5E7EB;
-}
-
-.info-head {
-    font-size: 36px;    
-    font-weight: bolder;
-    color: #1F2937;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
 }
 
 .footer {
