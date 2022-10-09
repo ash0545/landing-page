@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Black.ttf');
+}
+
 body {
     padding: 0%;
     margin: 0;
@@ -40,11 +45,16 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     padding: 30px 160px 60px 160px;
 }
 
-img {
-
+.hero .placeholder-image {
+    flex: 1;
+    margin: 0 0 0 20px;
+    max-width: 300px;
+    border-style: dashed;
+    border-color: #3882F6;
 }
 
 .hero-text button {
@@ -76,6 +86,22 @@ img {
 .info-cards {
     display: flex;
     gap: 30px;
+    padding: 30px 0 20px 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .placeholder-image {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-style: dashed;
+    border-color: #3882F6;
 }
 
 .info-head {
